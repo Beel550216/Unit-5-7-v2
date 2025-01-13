@@ -9,6 +9,7 @@ TagManager:
   - canvas
   - Audio1
   - Audio2
+  - Quit
   layers:
   - Default
   - TransparentFX

@@ -1,8 +1,5 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
-using System.Collections;
-using System.Collections.Generic;
 
 public class Button : MonoBehaviour
 {
@@ -43,6 +40,15 @@ public class Button : MonoBehaviour
             AudioManager.instance.buttonSFX();
         }
     }
-    
+
+    public void Quit()
+    {
+        if (gameObject.tag == "Quit")
+        {
+            Application.Quit();
+        }
+
+    }
+
 
 }
